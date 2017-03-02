@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WhalePayViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //向金融平台注册appID
+    [[WhalePayViewController sharedInstance] setAppId:@{
+                                                        @"appkey" : @"5ew28qukblY8r6n9P3BG",
+                                                        @"appsecret" : @"NmU7hSSADNN9rKB0AwLbi9K9GyIW2K2f"
+                                                        }];
+
+    
     return YES;
 }
 
