@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B111A3111E6800100081A3A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B111A3101E6800100081A3A5 /* main.m */; };
+		B111A3141E6800100081A3A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B111A3131E6800100081A3A5 /* AppDelegate.m */; };
+		B111A3171E6800100081A3A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B111A3161E6800100081A3A5 /* ViewController.m */; };
+		B111A31A1E6800100081A3A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B111A3181E6800100081A3A5 /* Main.storyboard */; };
+		B111A31C1E6800100081A3A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B111A31B1E6800100081A3A5 /* Assets.xcassets */; };
+		B111A31F1E6800100081A3A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B111A31D1E6800100081A3A5 /* LaunchScreen.storyboard */; };
+		B111A32A1E6800100081A3A5 /* WhalePayDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B111A3291E6800100081A3A5 /* WhalePayDemoTests.m */; };
+		B111A3351E6800100081A3A5 /* WhalePayDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B111A3341E6800100081A3A5 /* WhalePayDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B111A3261E6800100081A3A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B111A3041E6800100081A3A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B111A30B1E6800100081A3A5;
+			remoteInfo = WhalePayDemo;
+		};
+		B111A3311E6800100081A3A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B111A3041E6800100081A3A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B111A30B1E6800100081A3A5;
+			remoteInfo = WhalePayDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B111A30C1E6800100081A3A5 /* WhalePayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhalePayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B111A3101E6800100081A3A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B111A3121E6800100081A3A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B111A3131E6800100081A3A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B111A3151E6800100081A3A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B111A3161E6800100081A3A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B111A3191E6800100081A3A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B111A31B1E6800100081A3A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B111A31E1E6800100081A3A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B111A3201E6800100081A3A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B111A3251E6800100081A3A5 /* WhalePayDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhalePayDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B111A3291E6800100081A3A5 /* WhalePayDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhalePayDemoTests.m; sourceTree = "<group>"; };
+		B111A32B1E6800100081A3A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B111A3301E6800100081A3A5 /* WhalePayDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhalePayDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B111A3341E6800100081A3A5 /* WhalePayDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhalePayDemoUITests.m; sourceTree = "<group>"; };
+		B111A3361E6800100081A3A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B111A3091E6800100081A3A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B111A3221E6800100081A3A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B111A32D1E6800100081A3A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B111A3031E6800100081A3A5 = {
+			isa = PBXGroup;
+			children = (
+				B111A30E1E6800100081A3A5 /* WhalePayDemo */,
+				B111A3281E6800100081A3A5 /* WhalePayDemoTests */,
+				B111A3331E6800100081A3A5 /* WhalePayDemoUITests */,
+				B111A30D1E6800100081A3A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B111A30D1E6800100081A3A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B111A30C1E6800100081A3A5 /* WhalePayDemo.app */,
+				B111A3251E6800100081A3A5 /* WhalePayDemoTests.xctest */,
+				B111A3301E6800100081A3A5 /* WhalePayDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B111A30E1E6800100081A3A5 /* WhalePayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B111A3121E6800100081A3A5 /* AppDelegate.h */,
+				B111A3131E6800100081A3A5 /* AppDelegate.m */,
+				B111A3151E6800100081A3A5 /* ViewController.h */,
+				B111A3161E6800100081A3A5 /* ViewController.m */,
+				B111A3181E6800100081A3A5 /* Main.storyboard */,
+				B111A31B1E6800100081A3A5 /* Assets.xcassets */,
+				B111A31D1E6800100081A3A5 /* LaunchScreen.storyboard */,
+				B111A3201E6800100081A3A5 /* Info.plist */,
+				B111A30F1E6800100081A3A5 /* Supporting Files */,
+			);
+			path = WhalePayDemo;
+			sourceTree = "<group>";
+		};
+		B111A30F1E6800100081A3A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B111A3101E6800100081A3A5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B111A3281E6800100081A3A5 /* WhalePayDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B111A3291E6800100081A3A5 /* WhalePayDemoTests.m */,
+				B111A32B1E6800100081A3A5 /* Info.plist */,
+			);
+			path = WhalePayDemoTests;
+			sourceTree = "<group>";
+		};
+		B111A3331E6800100081A3A5 /* WhalePayDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B111A3341E6800100081A3A5 /* WhalePayDemoUITests.m */,
+				B111A3361E6800100081A3A5 /* Info.plist */,
+			);
+			path = WhalePayDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B111A30B1E6800100081A3A5 /* WhalePayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B111A3391E6800100081A3A5 /* Build configuration list for PBXNativeTarget "WhalePayDemo" */;
+			buildPhases = (
+				B111A3081E6800100081A3A5 /* Sources */,
+				B111A3091E6800100081A3A5 /* Frameworks */,
+				B111A30A1E6800100081A3A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhalePayDemo;
+			productName = WhalePayDemo;
+			productReference = B111A30C1E6800100081A3A5 /* WhalePayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B111A3241E6800100081A3A5 /* WhalePayDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B111A33C1E6800100081A3A5 /* Build configuration list for PBXNativeTarget "WhalePayDemoTests" */;
+			buildPhases = (
+				B111A3211E6800100081A3A5 /* Sources */,
+				B111A3221E6800100081A3A5 /* Frameworks */,
+				B111A3231E6800100081A3A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B111A3271E6800100081A3A5 /* PBXTargetDependency */,
+			);
+			name = WhalePayDemoTests;
+			productName = WhalePayDemoTests;
+			productReference = B111A3251E6800100081A3A5 /* WhalePayDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B111A32F1E6800100081A3A5 /* WhalePayDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B111A33F1E6800100081A3A5 /* Build configuration list for PBXNativeTarget "WhalePayDemoUITests" */;
+			buildPhases = (
+				B111A32C1E6800100081A3A5 /* Sources */,
+				B111A32D1E6800100081A3A5 /* Frameworks */,
+				B111A32E1E6800100081A3A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B111A3321E6800100081A3A5 /* PBXTargetDependency */,
+			);
+			name = WhalePayDemoUITests;
+			productName = WhalePayDemoUITests;
+			productReference = B111A3301E6800100081A3A5 /* WhalePayDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B111A3041E6800100081A3A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = liyong;
+				TargetAttributes = {
+					B111A30B1E6800100081A3A5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZW9XLD4957;
+						ProvisioningStyle = Automatic;
+					};
+					B111A3241E6800100081A3A5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZW9XLD4957;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B111A30B1E6800100081A3A5;
+					};
+					B111A32F1E6800100081A3A5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZW9XLD4957;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B111A30B1E6800100081A3A5;
+					};
+				};
+			};
+			buildConfigurationList = B111A3071E6800100081A3A5 /* Build configuration list for PBXProject "WhalePayDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B111A3031E6800100081A3A5;
+			productRefGroup = B111A30D1E6800100081A3A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B111A30B1E6800100081A3A5 /* WhalePayDemo */,
+				B111A3241E6800100081A3A5 /* WhalePayDemoTests */,
+				B111A32F1E6800100081A3A5 /* WhalePayDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B111A30A1E6800100081A3A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B111A31F1E6800100081A3A5 /* LaunchScreen.storyboard in Resources */,
+				B111A31C1E6800100081A3A5 /* Assets.xcassets in Resources */,
+				B111A31A1E6800100081A3A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B111A3231E6800100081A3A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B111A32E1E6800100081A3A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B111A3081E6800100081A3A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B111A3171E6800100081A3A5 /* ViewController.m in Sources */,
+				B111A3141E6800100081A3A5 /* AppDelegate.m in Sources */,
+				B111A3111E6800100081A3A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B111A3211E6800100081A3A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B111A32A1E6800100081A3A5 /* WhalePayDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B111A32C1E6800100081A3A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B111A3351E6800100081A3A5 /* WhalePayDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B111A3271E6800100081A3A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B111A30B1E6800100081A3A5 /* WhalePayDemo */;
+			targetProxy = B111A3261E6800100081A3A5 /* PBXContainerItemProxy */;
+		};
+		B111A3321E6800100081A3A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B111A30B1E6800100081A3A5 /* WhalePayDemo */;
+			targetProxy = B111A3311E6800100081A3A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B111A3181E6800100081A3A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B111A3191E6800100081A3A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B111A31D1E6800100081A3A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B111A31E1E6800100081A3A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B111A3371E6800100081A3A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B111A3381E6800100081A3A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B111A33A1E6800100081A3A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZW9XLD4957;
+				INFOPLIST_FILE = WhalePayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicsoft.WhalePayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B111A33B1E6800100081A3A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZW9XLD4957;
+				INFOPLIST_FILE = WhalePayDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicsoft.WhalePayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B111A33D1E6800100081A3A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZW9XLD4957;
+				INFOPLIST_FILE = WhalePayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicsoft.WhalePayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhalePayDemo.app/WhalePayDemo";
+			};
+			name = Debug;
+		};
+		B111A33E1E6800100081A3A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZW9XLD4957;
+				INFOPLIST_FILE = WhalePayDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicsoft.WhalePayDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhalePayDemo.app/WhalePayDemo";
+			};
+			name = Release;
+		};
+		B111A3401E6800100081A3A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZW9XLD4957;
+				INFOPLIST_FILE = WhalePayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicsoft.WhalePayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhalePayDemo;
+			};
+			name = Debug;
+		};
+		B111A3411E6800100081A3A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZW9XLD4957;
+				INFOPLIST_FILE = WhalePayDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magicsoft.WhalePayDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WhalePayDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B111A3071E6800100081A3A5 /* Build configuration list for PBXProject "WhalePayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B111A3371E6800100081A3A5 /* Debug */,
+				B111A3381E6800100081A3A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B111A3391E6800100081A3A5 /* Build configuration list for PBXNativeTarget "WhalePayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B111A33A1E6800100081A3A5 /* Debug */,
+				B111A33B1E6800100081A3A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B111A33C1E6800100081A3A5 /* Build configuration list for PBXNativeTarget "WhalePayDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B111A33D1E6800100081A3A5 /* Debug */,
+				B111A33E1E6800100081A3A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B111A33F1E6800100081A3A5 /* Build configuration list for PBXNativeTarget "WhalePayDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B111A3401E6800100081A3A5 /* Debug */,
+				B111A3411E6800100081A3A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B111A3041E6800100081A3A5 /* Project object */;
+}
