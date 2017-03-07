@@ -45,7 +45,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"100";
+    receipt1.money = @"0.01";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"";
     receipt1.ctype = @"1";
@@ -87,13 +87,13 @@
     
     [whalePayVC createPayment:wpOrder viewController:self withCompletion:^(NSDictionary *result) {
         if ([[result objectForKey:@"code"] integerValue] == 0){
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
         }else{
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
             NSLog(@"%@",[result objectForKey:@"message"]);
         }
     }];
-
+    
 }
 - (IBAction)payAction2 {
     WPOrder *wpOrder = [[WPOrder alloc] init];
@@ -113,7 +113,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"100";
+    receipt1.money = @"0.01";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"";
     receipt1.ctype = @"1";
@@ -146,7 +146,7 @@
     receipt4.ctype = @"4";
     receipt4.type = @"lfanpiao";
     
-        wpOrder.receiptArray = @[receipt1,receipt2,receipt3];
+    wpOrder.receiptArray = @[receipt1,receipt2,receipt3];
     
     
     WhalePayViewController *whalePayVC = [WhalePayViewController sharedInstance];
@@ -155,9 +155,9 @@
     
     [whalePayVC createPayment:wpOrder viewController:self withCompletion:^(NSDictionary *result) {
         if ([[result objectForKey:@"code"] integerValue] == 0){
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
         }else{
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
             NSLog(@"%@",[result objectForKey:@"message"]);
         }
     }];
@@ -181,7 +181,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"100";
+    receipt1.money = @"0.01";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"";
     receipt1.ctype = @"1";
@@ -214,7 +214,7 @@
     receipt4.ctype = @"4";
     receipt4.type = @"lfanpiao";
     
-        wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt4];
+    wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt4];
     
     
     WhalePayViewController *whalePayVC = [WhalePayViewController sharedInstance];
@@ -223,9 +223,9 @@
     
     [whalePayVC createPayment:wpOrder viewController:self withCompletion:^(NSDictionary *result) {
         if ([[result objectForKey:@"code"] integerValue] == 0){
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
         }else{
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
             NSLog(@"%@",[result objectForKey:@"message"]);
         }
     }];
@@ -249,7 +249,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"100";
+    receipt1.money = @"0.01";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"";
     receipt1.ctype = @"1";
@@ -282,7 +282,7 @@
     receipt4.ctype = @"4";
     receipt4.type = @"lfanpiao";
     
-        wpOrder.receiptArray = @[receipt1,receipt2,receipt3];
+    wpOrder.receiptArray = @[receipt1,receipt2,receipt3];
     
     
     WhalePayViewController *whalePayVC = [WhalePayViewController sharedInstance];
@@ -291,9 +291,9 @@
     
     [whalePayVC createPayment:wpOrder viewController:self withCompletion:^(NSDictionary *result) {
         if ([[result objectForKey:@"code"] integerValue] == 0){
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
         }else{
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
             NSLog(@"%@",[result objectForKey:@"message"]);
         }
     }];
@@ -317,7 +317,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"100";
+    receipt1.money = @"0.10";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"";
     receipt1.ctype = @"1";
@@ -350,7 +350,7 @@
     receipt4.ctype = @"4";
     receipt4.type = @"lfanpiao";
     
-        wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt4];
+    wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt4];
     
     
     WhalePayViewController *whalePayVC = [WhalePayViewController sharedInstance];
@@ -359,9 +359,9 @@
     
     [whalePayVC createPayment:wpOrder viewController:self withCompletion:^(NSDictionary *result) {
         if ([[result objectForKey:@"code"] integerValue] == 0){
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
         }else{
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
             NSLog(@"%@",[result objectForKey:@"message"]);
         }
     }];
@@ -385,7 +385,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"100";
+    receipt1.money = @"0.10";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"1";
     receipt1.ctype = @"1";
@@ -418,7 +418,7 @@
     receipt4.ctype = @"4";
     receipt4.type = @"lfanpiao";
     
-        wpOrder.receiptArray = @[receipt1,receipt2,receipt3];
+    wpOrder.receiptArray = @[receipt1,receipt2,receipt3];
     
     
     WhalePayViewController *whalePayVC = [WhalePayViewController sharedInstance];
@@ -427,9 +427,9 @@
     
     [whalePayVC createPayment:wpOrder viewController:self withCompletion:^(NSDictionary *result) {
         if ([[result objectForKey:@"code"] integerValue] == 0){
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
         }else{
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
             NSLog(@"%@",[result objectForKey:@"message"]);
         }
     }];
@@ -453,7 +453,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"100";
+    receipt1.money = @"0.10";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"";
     receipt1.ctype = @"1";
@@ -495,9 +495,9 @@
     
     [whalePayVC createPayment:wpOrder viewController:self withCompletion:^(NSDictionary *result) {
         if ([[result objectForKey:@"code"] integerValue] == 0){
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
         }else{
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
             NSLog(@"%@",[result objectForKey:@"message"]);
         }
     }];
@@ -521,7 +521,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"100";
+    receipt1.money = @"0.10";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"1";
     receipt1.ctype = @"1";
@@ -563,9 +563,9 @@
     
     [whalePayVC createPayment:wpOrder viewController:self withCompletion:^(NSDictionary *result) {
         if ([[result objectForKey:@"code"] integerValue] == 0){
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
         }else{
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
             NSLog(@"%@",[result objectForKey:@"message"]);
         }
     }];
@@ -590,7 +590,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"100";
+    receipt1.money = @"0.10";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"1";
     receipt1.ctype = @"1";
@@ -632,9 +632,9 @@
     
     [whalePayVC createPayment:wpOrder viewController:self withCompletion:^(NSDictionary *result) {
         if ([[result objectForKey:@"code"] integerValue] == 0){
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
         }else{
-            [MBProgressHUD showError:[result objectForKey:@"message"] toView:self.view];
+            [MBProgressHUD showMessage:[result objectForKey:@"message"] toView:self.view];
             NSLog(@"%@",[result objectForKey:@"message"]);
         }
     }];
