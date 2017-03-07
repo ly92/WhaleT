@@ -45,7 +45,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"0.01";
+    receipt1.money = @"100";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"";
     receipt1.ctype = @"1";
@@ -54,7 +54,7 @@
     receipt2.atid = @"4";
     receipt2.name = @"微信";
     receipt2.ano = @"";
-    receipt2.money = @"110";
+    receipt2.money = @"100";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"";
     receipt2.ctype = @"1";
@@ -63,7 +63,7 @@
     receipt3.atid = @"2";
     receipt3.name = @"彩之云全国饭票";
     receipt3.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt3.money = @"0.01";
+    receipt3.money = @"100";
     receipt3.info = @"饭票打一折";
     receipt3.isDefault = @"";
     receipt3.ctype = @"4";
@@ -72,7 +72,7 @@
     receipt4.atid = @"1";
     receipt4.name = @"北苑地方饭票";
     receipt4.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt4.money = @"0.41";
+    receipt4.money = @"89";
     receipt4.info = @"饭票打一折";
     receipt4.isDefault = @"1";
     receipt4.ctype = @"4";
@@ -113,7 +113,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"0.01";
+    receipt1.money = @"100";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"";
     receipt1.ctype = @"1";
@@ -122,7 +122,7 @@
     receipt2.atid = @"4";
     receipt2.name = @"微信";
     receipt2.ano = @"";
-    receipt2.money = @"110";
+    receipt2.money = @"100";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"";
     receipt2.ctype = @"1";
@@ -131,7 +131,7 @@
     receipt3.atid = @"2";
     receipt3.name = @"彩之云全国饭票";
     receipt3.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt3.money = @"0.01";
+    receipt3.money = @"100";
     receipt3.info = @"饭票打一折";
     receipt3.isDefault = @"";
     receipt3.ctype = @"4";
@@ -140,7 +140,7 @@
     receipt4.atid = @"1";
     receipt4.name = @"北苑地方饭票";
     receipt4.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt4.money = @"0.41";
+    receipt4.money = @"89";
     receipt4.info = @"饭票打一折";
     receipt4.isDefault = @"1";
     receipt4.ctype = @"4";
@@ -168,7 +168,6 @@
     
     //    akOrder.appkey = @"5ew28qukblY8r6n9P3BG";
     //    akOrder.appsecret = @"NmU7hSSADNN9rKB0AwLbi9K9GyIW2K2f";
-    
     wpOrder.pno = @"123456789";
     wpOrder.cno = @"987654321";
     wpOrder.orderno = @"123123123";
@@ -181,7 +180,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"0.01";
+    receipt1.money = @"100";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"";
     receipt1.ctype = @"1";
@@ -190,7 +189,7 @@
     receipt2.atid = @"4";
     receipt2.name = @"微信";
     receipt2.ano = @"";
-    receipt2.money = @"110";
+    receipt2.money = @"100";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"";
     receipt2.ctype = @"1";
@@ -199,7 +198,7 @@
     receipt3.atid = @"2";
     receipt3.name = @"彩之云全国饭票";
     receipt3.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt3.money = @"0.01";
+    receipt3.money = @"100";
     receipt3.info = @"饭票打一折";
     receipt3.isDefault = @"1";
     receipt3.ctype = @"4";
@@ -208,7 +207,7 @@
     receipt4.atid = @"1";
     receipt4.name = @"北苑地方饭票";
     receipt4.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt4.money = @"0.41";
+    receipt4.money = @"89";
     receipt4.info = @"饭票打一折";
     receipt4.isDefault = @"";
     receipt4.ctype = @"4";
@@ -249,7 +248,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"0.01";
+    receipt1.money = @"100";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"";
     receipt1.ctype = @"1";
@@ -258,7 +257,7 @@
     receipt2.atid = @"4";
     receipt2.name = @"微信";
     receipt2.ano = @"";
-    receipt2.money = @"110";
+    receipt2.money = @"100";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"";
     receipt2.ctype = @"1";
@@ -267,7 +266,7 @@
     receipt3.atid = @"2";
     receipt3.name = @"彩之云全国饭票";
     receipt3.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt3.money = @"0.01";
+    receipt3.money = @"100";
     receipt3.info = @"饭票打一折";
     receipt3.isDefault = @"1";
     receipt3.ctype = @"4";
@@ -276,7 +275,7 @@
     receipt4.atid = @"1";
     receipt4.name = @"北苑地方饭票";
     receipt4.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt4.money = @"0.41";
+    receipt4.money = @"89";
     receipt4.info = @"饭票打一折";
     receipt4.isDefault = @"";
     receipt4.ctype = @"4";
@@ -305,19 +304,11 @@
     //    akOrder.appkey = @"5ew28qukblY8r6n9P3BG";
     //    akOrder.appsecret = @"NmU7hSSADNN9rKB0AwLbi9K9GyIW2K2f";
     
-    wpOrder.pno = @"123456789";
-    wpOrder.cno = @"987654321";
-    wpOrder.orderno = @"123123123";
-    wpOrder.content = @"机械键盘";
-    wpOrder.userId = @"233";
-    wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(22),@(24)];
-    
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"0.10";
+    receipt1.money = @"100";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"";
     receipt1.ctype = @"1";
@@ -326,7 +317,7 @@
     receipt2.atid = @"4";
     receipt2.name = @"微信";
     receipt2.ano = @"";
-    receipt2.money = @"110";
+    receipt2.money = @"100";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"1";
     receipt2.ctype = @"1";
@@ -335,7 +326,7 @@
     receipt3.atid = @"2";
     receipt3.name = @"彩之云全国饭票";
     receipt3.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt3.money = @"0.01";
+    receipt3.money = @"100";
     receipt3.info = @"饭票打一折";
     receipt3.isDefault = @"";
     receipt3.ctype = @"4";
@@ -344,7 +335,7 @@
     receipt4.atid = @"1";
     receipt4.name = @"北苑地方饭票";
     receipt4.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt4.money = @"0.41";
+    receipt4.money = @"89";
     receipt4.info = @"饭票打一折";
     receipt4.isDefault = @"";
     receipt4.ctype = @"4";
@@ -385,7 +376,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"0.10";
+    receipt1.money = @"100";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"1";
     receipt1.ctype = @"1";
@@ -394,7 +385,7 @@
     receipt2.atid = @"4";
     receipt2.name = @"微信";
     receipt2.ano = @"";
-    receipt2.money = @"110";
+    receipt2.money = @"100";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"";
     receipt2.ctype = @"1";
@@ -403,7 +394,7 @@
     receipt3.atid = @"2";
     receipt3.name = @"彩之云全国饭票";
     receipt3.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt3.money = @"0.01";
+    receipt3.money = @"100";
     receipt3.info = @"饭票打一折";
     receipt3.isDefault = @"";
     receipt3.ctype = @"4";
@@ -412,7 +403,7 @@
     receipt4.atid = @"1";
     receipt4.name = @"北苑地方饭票";
     receipt4.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt4.money = @"0.41";
+    receipt4.money = @"89";
     receipt4.info = @"饭票打一折";
     receipt4.isDefault = @"";
     receipt4.ctype = @"4";
@@ -453,7 +444,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"0.10";
+    receipt1.money = @"100";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"";
     receipt1.ctype = @"1";
@@ -462,7 +453,7 @@
     receipt2.atid = @"4";
     receipt2.name = @"微信";
     receipt2.ano = @"";
-    receipt2.money = @"110";
+    receipt2.money = @"100";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"";
     receipt2.ctype = @"1";
@@ -471,7 +462,7 @@
     receipt3.atid = @"2";
     receipt3.name = @"彩之云全国饭票";
     receipt3.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt3.money = @"0.01";
+    receipt3.money = @"100";
     receipt3.info = @"饭票打一折";
     receipt3.isDefault = @"";
     receipt3.ctype = @"4";
@@ -480,7 +471,7 @@
     receipt4.atid = @"1";
     receipt4.name = @"北苑地方饭票";
     receipt4.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt4.money = @"0.41";
+    receipt4.money = @"89";
     receipt4.info = @"饭票打一折";
     receipt4.isDefault = @"";
     receipt4.ctype = @"4";
@@ -521,7 +512,7 @@
     receipt1.atid = @"31";
     receipt1.name = @"彩之云邻花钱";
     receipt1.ano = @"1031c5a4efa552b24491bda9d212abbb";
-    receipt1.money = @"0.10";
+    receipt1.money = @"100";
     receipt1.info = @"不打折";
     receipt1.isDefault = @"1";
     receipt1.ctype = @"1";
@@ -530,7 +521,7 @@
     receipt2.atid = @"4";
     receipt2.name = @"微信";
     receipt2.ano = @"";
-    receipt2.money = @"110";
+    receipt2.money = @"100";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"1";
     receipt2.ctype = @"1";
@@ -539,7 +530,7 @@
     receipt3.atid = @"2";
     receipt3.name = @"彩之云全国饭票";
     receipt3.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt3.money = @"0.01";
+    receipt3.money = @"100";
     receipt3.info = @"饭票打一折";
     receipt3.isDefault = @"1";
     receipt3.ctype = @"4";
@@ -548,7 +539,7 @@
     receipt4.atid = @"1";
     receipt4.name = @"北苑地方饭票";
     receipt4.ano = @"eb65c3ca8016462e9bdc4d9b1a276a8d";
-    receipt4.money = @"0.41";
+    receipt4.money = @"89";
     receipt4.info = @"饭票打一折";
     receipt4.isDefault = @"1";
     receipt4.ctype = @"4";
