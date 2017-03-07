@@ -31,6 +31,7 @@
 		B111A3B61E6800760081A3A5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B111A3A71E6800760081A3A5 /* MBProgressHUD.m */; };
 		B111A3B71E6800760081A3A5 /* libWhalePaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B111A3A81E6800760081A3A5 /* libWhalePaySDK.a */; };
 		B111A3BA1E6802580081A3A5 /* LHQResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B111A3B91E6802580081A3A5 /* LHQResources.bundle */; };
+		B1C83A441E6E4BF700C95A90 /* WhalePayWayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1C83A431E6E4BF700C95A90 /* WhalePayWayCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +167,7 @@
 		B111A3A81E6800760081A3A5 /* libWhalePaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWhalePaySDK.a; sourceTree = "<group>"; };
 		B111A3B81E6801820081A3A5 /* WhalePayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhalePayViewController.h; sourceTree = "<group>"; };
 		B111A3B91E6802580081A3A5 /* LHQResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LHQResources.bundle; sourceTree = "<group>"; };
+		B1C83A431E6E4BF700C95A90 /* WhalePayWayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WhalePayWayCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +266,7 @@
 			children = (
 				B111A3431E6800760081A3A5 /* include */,
 				B111A3A81E6800760081A3A5 /* libWhalePaySDK.a */,
+				B1C83A431E6E4BF700C95A90 /* WhalePayWayCell.xib */,
 			);
 			path = WhalePay;
 			sourceTree = "<group>";
@@ -517,6 +520,7 @@
 				B111A31F1E6800100081A3A5 /* LaunchScreen.storyboard in Resources */,
 				B111A31C1E6800100081A3A5 /* Assets.xcassets in Resources */,
 				B111A31A1E6800100081A3A5 /* Main.storyboard in Resources */,
+				B1C83A441E6E4BF700C95A90 /* WhalePayWayCell.xib in Resources */,
 				B111A3BA1E6802580081A3A5 /* LHQResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -816,6 +820,7 @@
 				B111A33B1E6800100081A3A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B111A33C1E6800100081A3A5 /* Build configuration list for PBXNativeTarget "WhalePayDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -824,6 +829,7 @@
 				B111A33E1E6800100081A3A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B111A33F1E6800100081A3A5 /* Build configuration list for PBXNativeTarget "WhalePayDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -832,6 +838,7 @@
 				B111A3411E6800100081A3A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
