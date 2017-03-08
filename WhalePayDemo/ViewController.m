@@ -628,7 +628,7 @@
     
     
     WhalePayViewController *whalePayVC = [WhalePayViewController sharedInstance];
-    whalePayVC.bundleName = @"";
+    whalePayVC.bundleName = @"WhaleResources";
     
     
     [whalePayVC createPayment:wpOrder viewController:self withCompletion:^(NSDictionary *result) {

@@ -30,8 +30,8 @@
 		B111A3B51E6800760081A3A5 /* RSAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B111A3A41E6800760081A3A5 /* RSAUtil.m */; };
 		B111A3B61E6800760081A3A5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B111A3A71E6800760081A3A5 /* MBProgressHUD.m */; };
 		B111A3B71E6800760081A3A5 /* libWhalePaySDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B111A3A81E6800760081A3A5 /* libWhalePaySDK.a */; };
-		B111A3BA1E6802580081A3A5 /* LHQResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B111A3B91E6802580081A3A5 /* LHQResources.bundle */; };
 		B1C83A441E6E4BF700C95A90 /* WhalePayWayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1C83A431E6E4BF700C95A90 /* WhalePayWayCell.xib */; };
+		B1F02E1B1E6F986800E5A2FA /* WhaleResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B1F02E1A1E6F986800E5A2FA /* WhaleResources.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,8 +166,8 @@
 		B111A3A71E6800760081A3A5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		B111A3A81E6800760081A3A5 /* libWhalePaySDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWhalePaySDK.a; sourceTree = "<group>"; };
 		B111A3B81E6801820081A3A5 /* WhalePayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhalePayViewController.h; sourceTree = "<group>"; };
-		B111A3B91E6802580081A3A5 /* LHQResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LHQResources.bundle; sourceTree = "<group>"; };
 		B1C83A431E6E4BF700C95A90 /* WhalePayWayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WhalePayWayCell.xib; sourceTree = "<group>"; };
+		B1F02E1A1E6F986800E5A2FA /* WhaleResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WhaleResources.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,7 +274,7 @@
 		B111A3431E6800760081A3A5 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				B111A3B91E6802580081A3A5 /* LHQResources.bundle */,
+				B1F02E1A1E6F986800E5A2FA /* WhaleResources.bundle */,
 				B111A3B81E6801820081A3A5 /* WhalePayViewController.h */,
 				B111A3441E6800760081A3A5 /* RES */,
 				B111A3A51E6800760081A3A5 /* Tools */,
@@ -521,7 +521,7 @@
 				B111A31C1E6800100081A3A5 /* Assets.xcassets in Resources */,
 				B111A31A1E6800100081A3A5 /* Main.storyboard in Resources */,
 				B1C83A441E6E4BF700C95A90 /* WhalePayWayCell.xib in Resources */,
-				B111A3BA1E6802580081A3A5 /* LHQResources.bundle in Resources */,
+				B1F02E1B1E6F986800E5A2FA /* WhaleResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
