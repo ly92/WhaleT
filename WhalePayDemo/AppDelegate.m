@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "WhalePayViewController.h"
 
+#define WECHAT_PAY_KEY @"wx42967af88ec99501"
+#define ALI_PAY_SCHEMEL @"AliPay20170313"
+
 @interface AppDelegate ()
 
 @end
@@ -22,7 +25,9 @@
     //向金融平台注册appID
     [[WhalePayViewController sharedInstance] setAppId:@{
                                                         @"appkey" : @"5ew28qukblY8r6n9P3BG",
-                                                        @"appsecret" : @"NmU7hSSADNN9rKB0AwLbi9K9GyIW2K2f"
+                                                        @"appsecret" : @"NmU7hSSADNN9rKB0AwLbi9K9GyIW2K2f",
+                                                        @"wxAppid" : WECHAT_PAY_KEY,
+                                                        @"aliSchemel" : ALI_PAY_SCHEMEL
                                                         }];
 
     

@@ -39,7 +39,7 @@
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
     wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
@@ -78,8 +78,17 @@
     receipt4.isDefault = @"1";
     receipt4.ctype = @"4";
     receipt4.type = @"lfanpiao";
+    WPReceiptType *receipt5 = [[WPReceiptType alloc] init];
+    receipt5.atid = @"26";
+    receipt5.name = @"彩之云支付宝";
+    receipt5.ano = @"1026f3ea6372f073484c88d3de8104d8";
+    receipt5.money = @"0.01";
+    receipt5.info = @"饭票打一折";
+    receipt5.isDefault = @"1";
+    receipt5.ctype = @"1";
+    receipt5.type = @"alipay";
     
-    wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt4];
+    wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt4,receipt5];
     
     
     WhalePayViewController *whalePayVC = [WhalePayViewController sharedInstance];
@@ -102,13 +111,14 @@
     //    akOrder.appkey = @"5ew28qukblY8r6n9P3BG";
     //    akOrder.appsecret = @"NmU7hSSADNN9rKB0AwLbi9K9GyIW2K2f";
     
-    wpOrder.pno = @"123456789";
-    wpOrder.cno = @"987654321";
+    wpOrder.pno = @"5e6d164b24be4d748fde32d814b17171";
+    wpOrder.cno = @"cf43a400aabf49dba4e2c62a5fe29f07";
     wpOrder.orderno = @"123123123";
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
     receipt1.atid = @"31";
@@ -146,8 +156,18 @@
     receipt4.isDefault = @"1";
     receipt4.ctype = @"4";
     receipt4.type = @"lfanpiao";
+    WPReceiptType *receipt5 = [[WPReceiptType alloc] init];
+    receipt5.atid = @"26";
+    receipt5.name = @"彩之云支付宝";
+    receipt5.ano = @"1026f3ea6372f073484c88d3de8104d8";
+    receipt5.money = @"0.01";
+    receipt5.info = @"饭票打一折";
+    receipt5.isDefault = @"1";
+    receipt5.ctype = @"1";
+    receipt5.type = @"alipay";
     
-    wpOrder.receiptArray = @[receipt1,receipt2,receipt3];
+    
+    wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt5];
     
     
     WhalePayViewController *whalePayVC = [WhalePayViewController sharedInstance];
@@ -170,13 +190,14 @@
     //    akOrder.appkey = @"5ew28qukblY8r6n9P3BG";
     //    akOrder.appsecret = @"NmU7hSSADNN9rKB0AwLbi9K9GyIW2K2f";
     
-    wpOrder.pno = @"123456789";
-    wpOrder.cno = @"987654321";
+    wpOrder.pno = @"5e6d164b24be4d748fde32d814b17171";
+    wpOrder.cno = @"cf43a400aabf49dba4e2c62a5fe29f07";
     wpOrder.orderno = @"123123123";
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
     receipt1.atid = @"31";
@@ -214,8 +235,18 @@
     receipt4.isDefault = @"";
     receipt4.ctype = @"4";
     receipt4.type = @"lfanpiao";
+    WPReceiptType *receipt5 = [[WPReceiptType alloc] init];
+    receipt5.atid = @"26";
+    receipt5.name = @"彩之云支付宝";
+    receipt5.ano = @"1026f3ea6372f073484c88d3de8104d8";
+    receipt5.money = @"0.01";
+    receipt5.info = @"饭票打一折";
+    receipt5.isDefault = @"1";
+    receipt5.ctype = @"1";
+    receipt5.type = @"alipay";
     
-    wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt4];
+    
+    wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt4,receipt5];
     
     
     WhalePayViewController *whalePayVC = [WhalePayViewController sharedInstance];
@@ -238,13 +269,14 @@
     //    akOrder.appkey = @"5ew28qukblY8r6n9P3BG";
     //    akOrder.appsecret = @"NmU7hSSADNN9rKB0AwLbi9K9GyIW2K2f";
     
-    wpOrder.pno = @"123456789";
-    wpOrder.cno = @"987654321";
+    wpOrder.pno = @"5e6d164b24be4d748fde32d814b17171";
+    wpOrder.cno = @"cf43a400aabf49dba4e2c62a5fe29f07";
     wpOrder.orderno = @"123123123";
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
     receipt1.atid = @"31";
@@ -282,8 +314,18 @@
     receipt4.isDefault = @"";
     receipt4.ctype = @"4";
     receipt4.type = @"lfanpiao";
+    WPReceiptType *receipt5 = [[WPReceiptType alloc] init];
+    receipt5.atid = @"26";
+    receipt5.name = @"彩之云支付宝";
+    receipt5.ano = @"1026f3ea6372f073484c88d3de8104d8";
+    receipt5.money = @"0.01";
+    receipt5.info = @"饭票打一折";
+    receipt5.isDefault = @"1";
+    receipt5.ctype = @"1";
+    receipt5.type = @"alipay";
     
-    wpOrder.receiptArray = @[receipt1,receipt2,receipt3];
+    
+    wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt5];
     
     
     WhalePayViewController *whalePayVC = [WhalePayViewController sharedInstance];
@@ -306,13 +348,14 @@
     //    akOrder.appkey = @"5ew28qukblY8r6n9P3BG";
     //    akOrder.appsecret = @"NmU7hSSADNN9rKB0AwLbi9K9GyIW2K2f";
     
-    wpOrder.pno = @"123456789";
-    wpOrder.cno = @"987654321";
+    wpOrder.pno = @"5e6d164b24be4d748fde32d814b17171";
+    wpOrder.cno = @"cf43a400aabf49dba4e2c62a5fe29f07";
     wpOrder.orderno = @"123123123";
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
     receipt1.atid = @"31";
@@ -350,8 +393,18 @@
     receipt4.isDefault = @"";
     receipt4.ctype = @"4";
     receipt4.type = @"lfanpiao";
+    WPReceiptType *receipt5 = [[WPReceiptType alloc] init];
+    receipt5.atid = @"26";
+    receipt5.name = @"彩之云支付宝";
+    receipt5.ano = @"1026f3ea6372f073484c88d3de8104d8";
+    receipt5.money = @"0.01";
+    receipt5.info = @"饭票打一折";
+    receipt5.isDefault = @"1";
+    receipt5.ctype = @"1";
+    receipt5.type = @"alipay";
     
-    wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt4];
+    
+    wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt4,receipt5];
     
     
     WhalePayViewController *whalePayVC = [WhalePayViewController sharedInstance];
@@ -374,13 +427,14 @@
     //    akOrder.appkey = @"5ew28qukblY8r6n9P3BG";
     //    akOrder.appsecret = @"NmU7hSSADNN9rKB0AwLbi9K9GyIW2K2f";
     
-    wpOrder.pno = @"123456789";
-    wpOrder.cno = @"987654321";
+    wpOrder.pno = @"5e6d164b24be4d748fde32d814b17171";
+    wpOrder.cno = @"cf43a400aabf49dba4e2c62a5fe29f07";
     wpOrder.orderno = @"123123123";
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
     receipt1.atid = @"31";
@@ -418,8 +472,18 @@
     receipt4.isDefault = @"";
     receipt4.ctype = @"4";
     receipt4.type = @"lfanpiao";
+    WPReceiptType *receipt5 = [[WPReceiptType alloc] init];
+    receipt5.atid = @"26";
+    receipt5.name = @"彩之云支付宝";
+    receipt5.ano = @"1026f3ea6372f073484c88d3de8104d8";
+    receipt5.money = @"0.01";
+    receipt5.info = @"饭票打一折";
+    receipt5.isDefault = @"1";
+    receipt5.ctype = @"1";
+    receipt5.type = @"alipay";
     
-    wpOrder.receiptArray = @[receipt1,receipt2,receipt3];
+    
+    wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt5];
     
     
     WhalePayViewController *whalePayVC = [WhalePayViewController sharedInstance];
@@ -439,16 +503,14 @@
 - (IBAction)payAction7 {
     WPOrder *wpOrder = [[WPOrder alloc] init];
     
-    //    akOrder.appkey = @"5ew28qukblY8r6n9P3BG";
-    //    akOrder.appsecret = @"NmU7hSSADNN9rKB0AwLbi9K9GyIW2K2f";
-    
-    wpOrder.pno = @"123456789";
-    wpOrder.cno = @"987654321";
+    wpOrder.pno = @"5e6d164b24be4d748fde32d814b17171";
+    wpOrder.cno = @"cf43a400aabf49dba4e2c62a5fe29f07";
     wpOrder.orderno = @"123123123";
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
     receipt1.atid = @"31";
@@ -486,8 +548,18 @@
     receipt4.isDefault = @"";
     receipt4.ctype = @"4";
     receipt4.type = @"lfanpiao";
+    WPReceiptType *receipt5 = [[WPReceiptType alloc] init];
+    receipt5.atid = @"26";
+    receipt5.name = @"彩之云支付宝";
+    receipt5.ano = @"1026f3ea6372f073484c88d3de8104d8";
+    receipt5.money = @"0.01";
+    receipt5.info = @"饭票打一折";
+    receipt5.isDefault = @"1";
+    receipt5.ctype = @"1";
+    receipt5.type = @"alipay";
     
-    wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt4];
+    
+    wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt4,receipt5];
     
     
     WhalePayViewController *whalePayVC = [WhalePayViewController sharedInstance];
@@ -510,13 +582,14 @@
     //    akOrder.appkey = @"5ew28qukblY8r6n9P3BG";
     //    akOrder.appsecret = @"NmU7hSSADNN9rKB0AwLbi9K9GyIW2K2f";
     
-    wpOrder.pno = @"123456789";
-    wpOrder.cno = @"987654321";
+    wpOrder.pno = @"5e6d164b24be4d748fde32d814b17171";
+    wpOrder.cno = @"cf43a400aabf49dba4e2c62a5fe29f07";
     wpOrder.orderno = @"123123123";
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
     receipt1.atid = @"31";
@@ -554,12 +627,22 @@
     receipt4.isDefault = @"1";
     receipt4.ctype = @"4";
     receipt4.type = @"lfanpiao";
+    WPReceiptType *receipt5 = [[WPReceiptType alloc] init];
+    receipt5.atid = @"26";
+    receipt5.name = @"彩之云支付宝";
+    receipt5.ano = @"1026f3ea6372f073484c88d3de8104d8";
+    receipt5.money = @"0.01";
+    receipt5.info = @"饭票打一折";
+    receipt5.isDefault = @"1";
+    receipt5.ctype = @"1";
+    receipt5.type = @"alipay";
     
-    wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt4];
+    
+    wpOrder.receiptArray = @[receipt1,receipt2,receipt3,receipt4,receipt5];
     
     
     WhalePayViewController *whalePayVC = [WhalePayViewController sharedInstance];
-    whalePayVC.bundleName = @"";
+    whalePayVC.bundleName = @"WhaleResources";
     
     
     [whalePayVC createPayment:wpOrder viewController:self withCompletion:^(NSDictionary *result) {
@@ -579,13 +662,14 @@
     //    akOrder.appkey = @"5ew28qukblY8r6n9P3BG";
     //    akOrder.appsecret = @"NmU7hSSADNN9rKB0AwLbi9K9GyIW2K2f";
     
-    wpOrder.pno = @"123456789";
-    wpOrder.cno = @"987654321";
+    wpOrder.pno = @"5e6d164b24be4d748fde32d814b17171";
+    wpOrder.cno = @"cf43a400aabf49dba4e2c62a5fe29f07";
     wpOrder.orderno = @"123123123";
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
     receipt1.atid = @"31";
@@ -623,12 +707,22 @@
     receipt4.isDefault = @"1";
     receipt4.ctype = @"4";
     receipt4.type = @"lfanpiao";
+    WPReceiptType *receipt5 = [[WPReceiptType alloc] init];
+    receipt5.atid = @"26";
+    receipt5.name = @"彩之云支付宝";
+    receipt5.ano = @"1026f3ea6372f073484c88d3de8104d8";
+    receipt5.money = @"0.01";
+    receipt5.info = @"饭票打一折";
+    receipt5.isDefault = @"1";
+    receipt5.ctype = @"1";
+    receipt5.type = @"alipay";
+    
     
     wpOrder.receiptArray = @[receipt1];
     
     
     WhalePayViewController *whalePayVC = [WhalePayViewController sharedInstance];
-    whalePayVC.bundleName = @"WhaleResources";
+    whalePayVC.bundleName = @"";
     
     
     [whalePayVC createPayment:wpOrder viewController:self withCompletion:^(NSDictionary *result) {
