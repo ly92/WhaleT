@@ -830,10 +830,7 @@
 					"$(PROJECT_DIR)/WhalePayDemo/WhalePay",
 					"$(PROJECT_DIR)/WhalePayDemo/WhalePay/include/WeiXin",
 				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deej.shd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "78acfbb6-8e5b-4341-888d-66b955ab4195";
@@ -868,10 +865,7 @@
 					"$(PROJECT_DIR)/WhalePayDemo/WhalePay",
 					"$(PROJECT_DIR)/WhalePayDemo/WhalePay/include/WeiXin",
 				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deej.shd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "665565ba-05f7-4310-9fb9-13ca5fd03b0f";
