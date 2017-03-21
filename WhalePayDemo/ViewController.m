@@ -39,7 +39,7 @@
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(25),@(26)];
     wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
@@ -52,10 +52,10 @@
     receipt1.ctype = @"1";
     receipt1.type = @"lhq";
     WPReceiptType *receipt2 = [[WPReceiptType alloc] init];
-    receipt2.atid = @"4";
-    receipt2.name = @"微信";
-    receipt2.ano = @"1004b4aac2537a3b40cdaf3bac370ad0";
-    receipt2.money = @"110";
+    receipt2.atid = @"25";
+    receipt2.name = @"微@信";
+    receipt2.ano = @"1025f6c4eedfcd92462b8b7383257877";
+    receipt2.money = @"0.01";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"";
     receipt2.ctype = @"1";
@@ -117,7 +117,7 @@
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(25),@(26)];
     wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
@@ -130,10 +130,10 @@
     receipt1.ctype = @"1";
     receipt1.type = @"lhq";
     WPReceiptType *receipt2 = [[WPReceiptType alloc] init];
-    receipt2.atid = @"4";
+    receipt2.atid = @"25";
     receipt2.name = @"微信";
-    receipt2.ano = @"1004b4aac2537a3b40cdaf3bac370ad0";
-    receipt2.money = @"110";
+    receipt2.ano = @"1025f6c4eedfcd92462b8b7383257877";
+    receipt2.money = @"0.01";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"";
     receipt2.ctype = @"1";
@@ -196,7 +196,7 @@
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(25),@(26)];
     wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
@@ -209,10 +209,10 @@
     receipt1.ctype = @"1";
     receipt1.type = @"lhq";
     WPReceiptType *receipt2 = [[WPReceiptType alloc] init];
-    receipt2.atid = @"4";
+    receipt2.atid = @"25";
     receipt2.name = @"微信";
-    receipt2.ano = @"1004b4aac2537a3b40cdaf3bac370ad0";
-    receipt2.money = @"110";
+    receipt2.ano = @"1025f6c4eedfcd92462b8b7383257877";
+    receipt2.money = @"0.01";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"";
     receipt2.ctype = @"1";
@@ -275,7 +275,7 @@
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(25),@(26)];
     wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
@@ -288,10 +288,10 @@
     receipt1.ctype = @"1";
     receipt1.type = @"lhq";
     WPReceiptType *receipt2 = [[WPReceiptType alloc] init];
-    receipt2.atid = @"4";
+    receipt2.atid = @"25";
     receipt2.name = @"微信";
-    receipt2.ano = @"1004b4aac2537a3b40cdaf3bac370ad0";
-    receipt2.money = @"110";
+    receipt2.ano = @"1025f6c4eedfcd92462b8b7383257877";
+    receipt2.money = @"0.01";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"";
     receipt2.ctype = @"1";
@@ -354,7 +354,7 @@
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(25),@(26)];
     wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
@@ -367,10 +367,10 @@
     receipt1.ctype = @"1";
     receipt1.type = @"lhq";
     WPReceiptType *receipt2 = [[WPReceiptType alloc] init];
-    receipt2.atid = @"4";
+    receipt2.atid = @"25";
     receipt2.name = @"微信";
-    receipt2.ano = @"1004b4aac2537a3b40cdaf3bac370ad0";
-    receipt2.money = @"110";
+    receipt2.ano = @"1025f6c4eedfcd92462b8b7383257877";
+    receipt2.money = @"0.01";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"1";
     receipt2.ctype = @"1";
@@ -433,7 +433,7 @@
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(25),@(26)];
     wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
@@ -446,10 +446,10 @@
     receipt1.ctype = @"1";
     receipt1.type = @"lhq";
     WPReceiptType *receipt2 = [[WPReceiptType alloc] init];
-    receipt2.atid = @"4";
+    receipt2.atid = @"25";
     receipt2.name = @"微信";
-    receipt2.ano = @"1004b4aac2537a3b40cdaf3bac370ad0";
-    receipt2.money = @"110";
+    receipt2.ano = @"1025f6c4eedfcd92462b8b7383257877";
+    receipt2.money = @"0.01";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"";
     receipt2.ctype = @"1";
@@ -509,7 +509,7 @@
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(25),@(26)];
     wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
@@ -522,10 +522,10 @@
     receipt1.ctype = @"1";
     receipt1.type = @"lhq";
     WPReceiptType *receipt2 = [[WPReceiptType alloc] init];
-    receipt2.atid = @"4";
+    receipt2.atid = @"25";
     receipt2.name = @"微信";
-    receipt2.ano = @"1004b4aac2537a3b40cdaf3bac370ad0";
-    receipt2.money = @"110";
+    receipt2.ano = @"1025f6c4eedfcd92462b8b7383257877";
+    receipt2.money = @"0.01";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"";
     receipt2.ctype = @"1";
@@ -588,7 +588,7 @@
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(25),@(26)];
     wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
@@ -601,10 +601,10 @@
     receipt1.ctype = @"1";
     receipt1.type = @"lhq";
     WPReceiptType *receipt2 = [[WPReceiptType alloc] init];
-    receipt2.atid = @"4";
+    receipt2.atid = @"25";
     receipt2.name = @"微信";
-    receipt2.ano = @"1004b4aac2537a3b40cdaf3bac370ad0";
-    receipt2.money = @"110";
+    receipt2.ano = @"1025f6c4eedfcd92462b8b7383257877";
+    receipt2.money = @"0.01";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"1";
     receipt2.ctype = @"1";
@@ -668,7 +668,7 @@
     wpOrder.content = @"机械键盘";
     wpOrder.userId = @"233";
     wpOrder.fixedorgmoney = @"";
-    wpOrder.payTypeArray = @[@(1),@(5),@(2),@(4),@(31),@(22),@(24)];
+    wpOrder.payTypeArray = @[@(1),@(2),@(4),@(31),@(25),@(26)];
     wpOrder.remoteip = @"192.0.1.9";
     
     WPReceiptType *receipt1 = [[WPReceiptType alloc] init];
@@ -681,10 +681,10 @@
     receipt1.ctype = @"1";
     receipt1.type = @"lhq";
     WPReceiptType *receipt2 = [[WPReceiptType alloc] init];
-    receipt2.atid = @"4";
+    receipt2.atid = @"25";
     receipt2.name = @"微信";
-    receipt2.ano = @"1004b4aac2537a3b40cdaf3bac370ad0";
-    receipt2.money = @"110";
+    receipt2.ano = @"1025f6c4eedfcd92462b8b7383257877";
+    receipt2.money = @"0.01";
     receipt2.info = @"微信不打折";
     receipt2.isDefault = @"1";
     receipt2.ctype = @"1";

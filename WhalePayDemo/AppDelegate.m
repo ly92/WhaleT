@@ -34,6 +34,40 @@
     return YES;
 }
 
+- (BOOL)application:(UIApplication *)application  handleOpenURL:(NSURL *)url
+{
+    NSString *urlStr = [url absoluteString];
+    if ([urlStr hasPrefix:WECHAT_PAY_KEY] || [url.host isEqualToString:@"platformapi"] || [url.host isEqualToString:@"safepay"]){
+        return [[WhalePayViewController sharedInstance] handleOpenURL:url withCompletion:nil];
+        
+    }
+    
+    return NO;
+    
+}
+
+//iOS 9以下的回调
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
+    
+    NSString *urlStr = [url absoluteString];
+    if ([urlStr hasPrefix:WECHAT_PAY_KEY] || [url.host isEqualToString:@"platformapi"] || [url.host isEqualToString:@"safepay"]){
+        return [[WhalePayViewController sharedInstance] handleOpenURL:url withCompletion:nil];
+        
+    }
+    return YES;
+    
+}
+
+//iOS 9以上的回调
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url options:(NSDictionary<NSString*, id> *)options{
+    
+    NSString *urlStr = [url absoluteString];
+    if ([urlStr hasPrefix:WECHAT_PAY_KEY] || [url.host isEqualToString:@"platformapi"] || [url.host isEqualToString:@"safepay"]){
+        return [[WhalePayViewController sharedInstance] handleOpenURL:url withCompletion:nil];
+        
+    }
+    return YES;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
